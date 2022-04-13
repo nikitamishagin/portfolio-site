@@ -1,3 +1,8 @@
+#!/bin/bash
+ssh -p15612 nikitamishagin@myfamcloud.ml
+cd /home/nikitamishagin/workspace/simplesite
+docker stop mysite
+docker rm mysite
 docker build -t mysite .
 docker run --detach \
 --name mysite \
