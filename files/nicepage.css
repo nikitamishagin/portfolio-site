@@ -36356,23 +36356,12 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 50px;
 }
 
-.u-header .u-icon-1 {
-  width: 24px;
-  height: 24px;
-  margin: 13px auto 0 13px;
-  padding: 0;
-}
-
 .u-header .u-text-1 {
-  margin: -24px 0 13px 670px;
+  margin: 13px 0 13px 670px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-icon-1 {
-    width: 24px;
-    height: 24px;
-  }
-
   .u-header .u-text-1 {
+    margin-top: 13px;
     margin-right: 0;
     margin-left: 570px;
   }
@@ -36407,7 +36396,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-btn-1 {
   background-image: none;
-  text-decoration: none solid rgb(255, 255, 255);
+  text-decoration: underline !important;
   padding: 0;
 }
 
