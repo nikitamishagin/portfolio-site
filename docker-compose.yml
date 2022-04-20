@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  web:
+    image: labstand-site:latest
+    replicas: 2
+    update_config:
+      parallelism: 1
+      delay: 5s
+      failure_action: rollback
+      monitor: 10s
+      order: stop-first
