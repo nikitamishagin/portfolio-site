@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   web:
-    image: labstand-site:latest
+    image: labstand-web:latest
     env_file:
       - vhost.env
     deploy:
